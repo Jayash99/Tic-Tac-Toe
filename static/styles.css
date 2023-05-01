@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    height: 100vh;
+}
+
+.board {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    background-color: white;
+    margin: 60px 200px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-color: black;
+    border-width: 10px;
+    border-style: ridge;
+}
+
+.box-corner-top-left {
+    border-top-style: none;
+    border-left-style: none;
+}
+
+.box-corner-top-right {
+    border-top-style: none;
+    border-right-style: none;
+}
+
+.box-corner-bottom-left {
+    border-bottom-style: none;
+    border-left-style: none;
+}
+
+.box-corner-bottom-right {
+    border-bottom-style: none;
+    border-right-style: none;
+}
+
+.box-side-middle-right {
+    border-right-style: none;
+}
+
+.box-side-middle-left {
+    border-left-style: none;
+}
+
+.box-side-middle-top {
+    border-top-style: none;
+}
+
+.box-side-middle-bottom {
+    border-bottom-style: none;
+}
+
+.player {
+    text-align: center;
+    background-color: grey;
+    width: 250px;
+    height: 100vh;
+}
+
+.player2 {
+    width: 270px;
+}
